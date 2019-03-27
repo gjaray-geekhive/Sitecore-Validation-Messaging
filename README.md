@@ -2,6 +2,19 @@
 
 8, 9
 
+##### Changing version:
+
+To support a specific version of sitecore update the Nuget References for the following references to point at your instance's version
+
+```
+Sitecore.ExperienceEditor
+Sitecore.ExperienceEditor.Speak
+Sitecore.ExperienceEditor.Speak.Ribbon
+Sitecore.Kernal
+```
+
+
+
 # Installation Instructions
 
 Place zzz.DeterminePublishAction.config into App_config/Include
