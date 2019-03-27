@@ -12,7 +12,9 @@ Place SitecoreValidationMessaging.dll in the bin folder`
 
 By default the Required validator is selected but this can be extended by updating the `PublishBlockingValidators` in `zzz.DeterminePublishAction.config`. This is a `|` separated list. For example, having Required and Minimum Length 8 will be formatted as
 
+~~~~xml
 <setting name="PublishBlockingValidators" value="{59D4EE10-627C-4FD3-A964-61A88B092CBC}|{F42F3E57-5A4B-49EF-A581-A60CEDC71305}"/>
+~~~~
 
 # Known Issues
 
