@@ -79,11 +79,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Web.config">
-      <SubType>Designer</SubType>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="EventHandlers\ItemSavedCheckRequiredFields.cs" />
     <Compile Include="Helpers\ValidationHelpers.cs" />
     <Compile Include="Pipelines\DeterminePublishAction.cs" />
@@ -93,12 +88,6 @@
   <ItemGroup>
     <Content Include="App_Config\Include\zzz.DeterminePublishAction.config" />
     <None Include="packages.config" />
-    <None Include="Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>
