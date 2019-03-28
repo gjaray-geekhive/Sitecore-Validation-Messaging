@@ -10,7 +10,7 @@ To support a specific version of sitecore update the Nuget References for the fo
 Sitecore.ExperienceEditor
 Sitecore.ExperienceEditor.Speak
 Sitecore.ExperienceEditor.Speak.Ribbon
-Sitecore.Kernal
+Sitecore.Kernel
 ```
 
 
